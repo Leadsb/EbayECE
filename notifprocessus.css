@@ -1,0 +1,93 @@
+
+/* met l'image de fond*/
+#fond{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+}
+#titre{
+    color: #5F8CA3;
+    font-size: 30px;
+    padding-top: 5px;
+    left: 50px;  
+  
+}
+#st{
+    font-size: 25px;
+    color:#C44C51;
+    left: 50px;
+}
+/*création de bouton*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+li{
+    float: left;
+    position: relative;
+    left: 520px;
+}
+ 
+ 
+li a {
+    display: block;
+    font-weight: bold;
+    color: #ffb6b8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ 
+/* Change la couleur du bloc en passage souris */
+li a:hover {
+    background-color:#C44C51;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+}
+
+.button{
+    float: none;
+    display: block;
+    color: #ffb6b8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background-color:#C44C51;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+}
+
+
+#corp{
+    
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+
+}
+/* Foot de la page*/
+.container {
+    position: relative;
+    text-align: center;
+    width: 1200px;
+    height: 300px auto;
+    margin: 20px;
+    color: #5F8CA3;
+}
+
+.container .foot{
+    position: sticky;
+    text-align: center;
+    width: 500px ;
+    height: 150px auto;
+    background:white;
+    float: left;
+    margin: 15px;
+}

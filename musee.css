@@ -1,0 +1,95 @@
+#fond{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+}
+#titre{
+    text-align: center;
+    color: #5F8CA3;
+    font-size: 30px;
+    padding-top: 5px;  
+  
+}
+#st{
+    text-align: center;
+    font-size: 20px;
+    color:#C44C51;
+}
+
+h2{
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li{
+    float: right;
+    position: relative;
+    right: 40px;
+}
+
+#corp{
+    
+    font-size: 17px;
+
+}
+/*Premier item*/
+#image1{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background: url(tableau.jpg) ;
+    background-size: 100% 100%;
+    float: left;
+    margin: 30px;
+}
+/*Deuxième item*/
+#image2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: url(david.jpg) ;
+    background-size: 100% 100%;
+    float: left;
+    margin: 30px;
+}
+/*Troisième item*/
+#image3{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: url(fossile.jpg) ;
+    background-size: 100% 100%;
+    float: left;
+    margin: 30px;
+}
+/*Pour régler la mise en forme du nom de l'objet*/
+.nom{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*Pour le foot*/
+.container {
+    position: relative;
+    text-align: center;
+    width: 1200px;
+    height: 300px auto;
+    margin: 20px;
+    color: #5F8CA3;
+}
+
+.container .foot{
+    position: sticky;
+    text-align: center;
+    width: 500px ;
+    height: 150px auto;
+    background:white;
+    float: left;
+    margin: 15px;
+}
