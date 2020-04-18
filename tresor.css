@@ -39,40 +39,16 @@ li{
     font-size: 17px;
 
 }
-/*Premier item*/
-#image1{
-    position: relative;
-    width: 250px;
-    height: 200px;
-    background: url(voiture.jpg) ;
-    background-size: 100% 100%;
-    float: left;
-    margin: 30px;
-}
-/*Deuxième item*/
-#image2{
-    position: relative;
-    width: 250px;
-    height: 200px;
-    background: url(guitare.jpg) ;
-    background-size: 100% 100%;
-    float: left;
-    margin: 30px;
-}
-/*Troisième item*/
-#image3{
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background: url(journal.jpg) ;
-    background-size: 100% 100%;
-    float: left;
-    margin: 30px;
-}
+
 /*Pour régler la mise en forme du nom de l'objet*/
 .nom{
     font-size: 20px;
     font-weight: bold;
+}
+/* Gestion de l'image de la bdd*/ 
+#item{
+    height: 6em;
+    width:auto;
 }
 /*Pour le foot*/
 .container {
