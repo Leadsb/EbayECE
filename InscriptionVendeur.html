@@ -1,0 +1,111 @@
+<!--Page 18 : Formulaire d'Inscription Vendeur-->
+<!--Inscription_Vendeur.html-->
+ 
+ 
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" href="Inscription_Vendeur.css"/>
+       <title>Formulaire d'inscription</title>
+   </head>
+ 
+   <!--En-tête-->
+   <body>
+      
+       <div class="fond">
+           <br><br>
+           <h1 class="logo">Formulaire d'inscription</h1>
+           <h2>Afin de créer votre compte client, veuillez remplir les champs suivants</h2>
+           <br><br>
+ 
+       </div>
+ 
+      
+       <!--Barre de navigation-->
+       <ul>
+           <li><a href="LoginVendeur.html">Retour</a></li>
+       </ul>
+       <br>
+       <HR>
+ 
+ 
+       <!--Formulaire à remplir-->
+       <div class="formulaire">
+           <form action="LoginVendeur" method="post">
+               <div>
+                   <p><strong>Informations de connexion</strong></p> <br>
+                   <label for="name">Pseudo :</label>
+                   <input type="text" id="name" name="Pseudo">
+               </div>
+               <div>
+                   <label for="mail">E-mail :</label>
+                   <input type="email" id="mail" name="user_mail">
+               </div>
+               <br>
+               <div>
+                   <p><strong>Informations client</strong></p><br>
+                   <label for="name">Nom :</label>
+                   <input type="name" id="name" name="name">
+               </div>
+               <div>
+                   <label for="prenom">Prénom :</label>
+                   <input type="name" id="prenom" name="prenom">
+               </div>
+               <br>
+ 
+               <!--Insérer la photo de profil-->
+               <label for="avatar">Photo de profil :</label>
+                <input type="file"
+                id="avatar" name="avatar"
+                accept="image/png, image/jpeg">
+                <br><br>
+ 
+ 
+                <!--Informations de versement-->
+               <div>
+                   <p><strong>Informations de versement</strong></p><br>
+                   <label for="RIB">RIB :</label>
+                   <input type="text" id="RIB" name="RIB">
+               </div>
+ 
+ 
+ 
+ 
+               <br>
+           </form>
+       </div>
+ 
+       <br>
+      
+       <!--Bouton valider-->
+       <div class="button1">
+           <ul>
+               <li><a href="Redirection_Inscription_Vendeur.html">Valider</a></li>
+           </ul>
+       </div>
+ 
+ 
+       <!--Footer avec liens vers autres sites-->
+ 
+<footer>
+   <HR>
+       <br><br>
+   <div class="container">
+       <div class="foot">
+       <a href="mailto:jean-pierre.segado@ece.fr">
+           <img src="mail.png" alt="mail" height="30" width="30"></a>
+       <a href="https://www.facebook.com/ECE.Paris">
+           <img src="facebook.png" alt="facebook" height="30" width="30"></a>
+       <a href="https://ece.campusonline.me/fr-fr/Pages/home.aspx">
+           <img src="ece.jpg" alt="ece" height="30" width="30"></a>
+       </div>
+       <div class="foot">
+           <p>© 2020 Copyright | Droit d'auteur: Projet piscine</p>
+          
+       </div>
+   </div>
+ 
+   </footer>
+ 
+</html>
