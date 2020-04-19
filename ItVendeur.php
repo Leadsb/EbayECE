@@ -11,7 +11,7 @@
         </div>
         <ul>
             <li><a href="HomeVendeur.html">Retour</a></li>
-            <li><a href="#">Ajouter</a></li>
+            <li><a href="AjoutItem.php">Ajouter</a></li>
         </ul>
         <HR>
         <table>
