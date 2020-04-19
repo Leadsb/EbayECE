@@ -1,3 +1,29 @@
+/*En tête*/
+h1{
+    text-align: left;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #A2B5BF;
+    font-size: 30px;
+    padding-top: 5px;
+}
+h4{
+text-align: left;
+margin-left: 15px;
+font-size: 20px;
+color: #C44C51;
+
+}
+#section{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+}
+/*Corp*/
+#sous-sec{
+    position: relative;
+    color:#A2B5BF;
+    left: 100px;
+}
 body {   
     padding: 5px;   
     margin: 6px;   
@@ -5,22 +31,10 @@ body {
     color:black;
 }
 
-#section{
-    text-align: left;
-    color:#A2B5BF;
-    margin:10px;
-    font-weight: bold;
-}
-
-#sous-sec{
-    position: relative;
-    color:#A2B5BF;
-    left: 100px;
-}
-
 p{
     text-align: center;
 }
+/*Boutton*/
 .button{
     position: relative;
     left: 510px;
@@ -39,7 +53,7 @@ p{
     -moz-border-radius: 11px;
     border-radius: 11px;
 }
-
+/*Footer*/
 .container {
     position: relative;
     text-align: center;
