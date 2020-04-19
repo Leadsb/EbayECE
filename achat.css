@@ -1,4 +1,4 @@
-
+/*En tête*/
 #fond{
     background: url(fond.jpg) no-repeat;
     background-size: 100%;
@@ -29,7 +29,7 @@ li{
     position: relative;
     right: 40px;
 }
-
+/*Corp de la page*/
 .caption{
     font-size: 20px;
     color: #C44C51;
@@ -40,6 +40,7 @@ li{
     font-size: 15px;
     font-weight: lighter;
 }
+/*Pour le foot*/
 .container {
     position: relative;
     text-align: center;
