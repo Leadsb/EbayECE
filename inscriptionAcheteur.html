@@ -1,0 +1,139 @@
+<!--Page 22 : Formulaire d'Inscription Acheteur-->
+<!--inscriptionAcheteur.html-->
+ 
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" href="inscriptionAcheteur.css"/>
+       <title>Formulaire d'inscription</title>
+   </head>
+ 
+   <!--En-tête-->
+   <body>
+      
+       <div class="fond">
+           <br><br>
+           <h1 class="logo">Formulaire d'inscription</h1>
+           <h2>Afin de créer votre compte client, veuillez remplir les champs suivants</h2>
+           <br><br>
+ 
+       </div>
+ 
+      
+       <!--Barre de navigation-->
+       <ul>
+           <li><a href="loginAcheteur.html">Retour</a></li>
+       </ul>
+       <br>
+       <HR>
+ 
+ 
+       <!--Formulaire à remplir-->
+       <div class="formulaire">
+           <form action="LoginVendeur" method="post">
+               <div>
+                   <p><strong>Informations de connexion</strong></p> <br>
+                   <label for="name">Pseudo :</label>
+                   <input type="text" id="name" name="Pseudo">
+               </div>
+               <div>
+                   <label for="mail">E-mail :</label>
+                   <input type="email" id="mail" name="user_mail">
+               </div>
+               <br>
+               <div>
+ 
+ 
+                   <p><strong>Informations client</strong></p><br>
+                   <label for="name">Nom :</label>
+                   <input type="name" id="name" name="name">
+               </div>
+               <div>
+                   <label for="prenom">Prénom :</label>
+                   <input type="name" id="prenom" name="prenom">
+               </div>
+               <div>
+                   <label for="adresse">Adresse :</label>
+                   <input type="text" id="adresse" name="adresse">
+               </div>
+               <div>
+                   <label for="ville">Ville :</label>
+                   <input type="text" id="ville" name="ville">
+               </div>
+               <div>
+                   <label for="code_postal">Code Postal :</label>
+                   <input type="code_postal" id="code_postal" name="code_postal">
+               </div>
+               <div>
+                   <label for="pays">Pays :</label>
+                   <input type="text" id="pays" name="pays">
+               </div>
+               <div>
+                   <label for="num_telephone">Numéro de téléphone :</label>
+                   <input type="text" id="num_telephone" name="num_telephone">
+               </div>
+ 
+                <!--Informations de versement-->
+               <div>
+                   <p><strong>Informations de versement</strong></p><br>
+                   <label for="type_carte">Type de carte :</label>
+                   <input type="text" id="type_carte" name="type_carte">
+               </div>
+               <div>
+                   <label for="num_carte">Numéro de la carte :</label>
+                   <input type="text" id="num_carte" name="num_carte">
+               </div>
+               <div>
+                   <label for="nom_carte">Nom sur la carte :</label>
+                   <input type="name" id="nom_carte" name="nom_carte">
+               </div>
+               <div>
+                   <label for="date_exp">Date d'expiration :</label>
+                   <input type="date" id="date_exp" name="date_exp">
+               </div>
+               <div>
+                   <label for="code">Code de sécurité :</label>
+                   <input type="text" id="code" name="code">
+               </div>
+ 
+ 
+ 
+ 
+               <br>
+           </form>
+       </div>
+ 
+       <br>
+      
+       <!--Bouton valider-->
+       <div class="button1">
+           <ul>
+               <li><a href="HomeAcheteur.html">Valider</a></li>
+           </ul>
+       </div>
+ 
+ 
+       <!--Footer avec liens vers autres sites-->
+ 
+<footer>
+   <HR>
+       <br><br>
+   <div class="container">
+       <div class="foot">
+       <a href="mailto:jean-pierre.segado@ece.fr">
+           <img src="mail.png" alt="mail" height="30" width="30"></a>
+       <a href="https://www.facebook.com/ECE.Paris">
+           <img src="facebook.png" alt="facebook" height="30" width="30"></a>
+       <a href="https://ece.campusonline.me/fr-fr/Pages/home.aspx">
+           <img src="ece.jpg" alt="ece" height="30" width="30"></a>
+       </div>
+       <div class="foot">
+           <p>© 2020 Copyright | Droit d'auteur: Projet piscine</p>
+          
+       </div>
+   </div>
+ 
+   </footer>
+ 
+</html>
