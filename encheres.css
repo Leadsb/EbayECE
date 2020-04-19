@@ -1,0 +1,116 @@
+/*Page 14 : encheres.css*/
+ 
+h1{
+    text-align: center;
+    color: #5F8CA3;
+    font-size: 30px;
+    padding-top: 5px;
+ }
+ h2{
+    text-align: center;
+    color: #5F8CA3;
+    font-size: 15px;
+    padding-top: 5px;
+  
+ }
+  
+ div.fond{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+ }
+  
+ /*Barre de navigation*/
+  
+ div.barre ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+ }
+ div.barre li {
+    float: right;
+ }
+ div.barre li a {
+    display: block;
+    font-weight: bold;
+    color: #ffb6b8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+ /* Change la couleur du bloc en passage souris */
+ div.barre li a:hover {
+    background-color:#C44C51;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+ }
+  
+  
+ /*Galerie images*/
+ div.encadrement{
+    border-style: solid;
+    border-color: #ffb6b8;
+    border-width: 2px;
+  
+ }
+  
+ div.img{
+    text-align: left;
+ }
+  
+ div.desc{
+    text-align: left;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+  
+ /*Bouton enchérir*/
+  
+ div.button2 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    padding-left: 500px;
+    padding-right: 500px;
+  
+ }
+  
+ div.button2 li{
+    float: left;
+  
+ }
+  
+ div.button2 li a{
+    display: block;
+    font-weight: bold;
+    color: #ffb6b8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+ }
+  
+ div.button2 li a:hover {
+    background-color:#C44C51;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+ }
+  
+ /*Footer*/
+ div.container{
+    font-size: large;
+    text-align: center;
+ }
+ div.foot{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#5F8CA3;
+ }
+ 
+ 

@@ -1,0 +1,81 @@
+<!--Page 20 : Espace de connexion administrateur-->
+<!--loginAdmin.html-->
+ 
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" href="loginAdmin.css"/>
+       <title>Espace de connexion administrateur</title>
+   </head>
+ 
+   <!--En-tête-->
+   <body>
+      
+       <div class="fond">
+           <br><br>
+           <h1 class="logo">Espace de connexion</h1>
+           <h2>Veuillez vous connecter pour accéder à votre espace administrateur</h2>
+           <br><br>
+ 
+       </div>
+ 
+      
+       <!--Barre de navigation-->
+       <ul>
+           <li><a href="home.html">Retour</a></li>
+       </ul>
+       <br>
+       <HR>
+ 
+       <div class="instruction_formulaire">
+           <p>Pour se faire, veuillez utiliser vos coordonnées habituelles :</p>
+       </div>
+ 
+       <!--Formulaire à remplir-->
+       <div class="formulaire">
+           <form action="LoginAdmin" method="post">
+               <div>
+                   <label for="name">Pseudo :</label>
+                   <input type="text" id="name" name="Pseudo">
+               </div>
+               <br>
+               <div>
+                   <label for="mail">E-mail :</label>
+                   <input type="email" id="mail" name="user_mail">
+               </div>
+ 
+               <br>
+           </form>
+       </div>
+      
+       <!--Bouton valider-->
+       <div class="button1">
+           <ul>
+               <li><a href="HomeAdmin.html">Valider</a></li>
+           </ul>
+       </div>
+ 
+       <!--Footer avec liens vers autres sites-->
+ 
+<footer>
+   <HR>
+       <br><br>
+   <div class="container">
+       <div class="foot">
+       <a href="mailto:jean-pierre.segado@ece.fr">
+           <img src="mail.png" alt="mail" height="30" width="30"></a>
+       <a href="https://www.facebook.com/ECE.Paris">
+           <img src="facebook.png" alt="facebook" height="30" width="30"></a>
+       <a href="https://ece.campusonline.me/fr-fr/Pages/home.aspx">
+           <img src="ece.jpg" alt="ece" height="30" width="30"></a>
+       </div>
+       <div class="foot">
+           <p>© 2020 Copyright | Droit d'auteur: Projet piscine</p>
+          
+       </div>
+   </div>
+ 
+   </footer>
+ 
+</html>
