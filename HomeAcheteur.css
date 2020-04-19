@@ -4,10 +4,17 @@ body {
     background:white;
     color:black;
 }
+/*En tête*/
 #titre{
     text-align: center;
     color: #5f8ca3;
-    font-weight: bold;
+    padding-top: 5px;
+    font-size: 30px;
+}
+#st{
+    font-size: 20px;
+    text-align: center;
+    color: #C44C51;
 }
 
 #fond{
@@ -80,6 +87,9 @@ li a:hover {
 
 p{
     text-align: center;
+}
+h3{
+    font-size: 25px;
 }
 
 .button{

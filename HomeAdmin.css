@@ -3,10 +3,17 @@ body {
     margin: 5px;   
     color:black;
 }
+/*En tête*/
 #titre{
     text-align: center;
     color: #5f8ca3;
-    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+}
+#st{
+    text-align: center;
+    font-size: 20px;
+    color: #C44C51;
 }
 
 #fond{
@@ -42,12 +49,26 @@ li a:hover {
     -moz-border-radius: 11px;
     border-radius: 11px;
 }
+/*Corp*/
+h2{
+    text-align: center;
+    font-size: 25px;
+    color: #C44C51;
+    font-weight: bold;
+}
 
 #section{
     position: relative;
     color:#A2B5BF;
     font-weight: bold;
+    margin: 10px;
 }
+#position{
+    float: right;
+    right: 420px;
+    position: relative;
+}
+
 
 a{
     color:#A2B5BF;
@@ -74,6 +95,7 @@ a{
 #img{
     padding-left: 150px;
 }
+/*Pour le foot*/
 
 
 .container .foot{

@@ -4,25 +4,31 @@ body {
     background:white;
     color:black;
 }
-
+/*En tête*/
 #section{
     position: relative;
-    color:#A2B5BF;
-    font-weight: bold;
+    color: #5f8ca3;;
+    font-size: 30px;
+    padding-top: 5px;
 }
-
-p{
+#fond{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+}
+/*corp*/
+#corp{
     text-align: center;
+    color: #C44C51;
+    font-size: 25px;
 }
 
 .button{
     position:relative;
-    left: 570px;
-    width: 100px;
+    text-align: center;
+    font-size: 25px;
     font-weight: bold;
     display: block;
     color: #ffb6b8;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
