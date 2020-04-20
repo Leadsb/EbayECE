@@ -34,17 +34,21 @@
  
        <!--Formulaire à remplir-->
        <div class="formulaire">
-           <form action="LoginAdmin" method="post">
+           <form action="loginadmin.php" method="post">
                <div>
-                   <label for="name">Pseudo :</label>
-                   <input type="text" id="name" name="Pseudo">
+                   <label for="adminmail">Mail:</label>
+                   <input type="text" id="adminmail" name="adminmail">
                </div>
                <br>
                <div>
-                   <label for="mail">E-mail :</label>
-                   <input type="email" id="mail" name="user_mail">
+                   <label for="adminmdp">Mot de Passe</label>
+                   <input type="text" id="adminmdp" name="adminmdp">
                </div>
- 
+               <div class="button1">
+                <ul>
+                    <li><input type="submit" value="Ajouter" name="button1"></li>
+                </ul>
+                </div>
                <br>
            </form>
        </div>
