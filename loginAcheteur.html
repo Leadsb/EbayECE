@@ -34,16 +34,21 @@
  
        <!--Formulaire à remplir-->
        <div class="formulaire">
-           <form action="loginAcheteur" method="post">
+           <form action="loginAcheteur.php" method="post">
                <div>
-                   <label for="name">Pseudo :</label>
-                   <input type="text" id="name" name="Pseudo">
+                   <label for="login">Mail:</label>
+                   <input type="text" id="login" name="login">
                </div>
                <br>
                <div>
-                   <label for="mail">E-mail :</label>
-                   <input type="email" id="mail" name="user_mail">
+                   <label for="mot_de_passe">Mot de passe :</label>
+                   <input type="text" id="mot_de_passe" name="mot_de_passe">
                </div>
+               <div class="button1">
+                <ul>
+                    <li><input type="submit" value="Ajouter" name="button1"></li>
+                </ul>
+            </div>
  
                <br>
            </form>
