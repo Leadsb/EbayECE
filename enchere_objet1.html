@@ -5,68 +5,72 @@
 <html>
    <head>
        <meta charset="utf-8"/>
-       <link rel="stylesheet" href="enchere_objet1.css"/>
+       <link rel="stylesheet" href="enchere_objet1.css"type="text/css"/>
        <title>Objet 1 enchère</title>
    </head>
  
    <!--En-tête-->
    <body>
       
-       <div class="fond">
+       <div id="fond">
            <br><br>
-           <h1 class="logo">Nom de l'objet</h1>
-           <h2>Période pour enchérir</h2>
-           <br><br>
- 
-       </div>
+           <div id="titre">
+           <h1>Nom de l'objet</h1>
+           </div>
+           <div id="st">
+           <p>Période pour enchérir</p>
+           </div>
  
       
        <!--Barre de navigation-->
        <ul>
-           <li><a href="encheres.html">Retour</a></li>
+           <li><a href="encheres.html"><img src="fleche.png" width="50" height="50"></a></li>
        </ul>
-       <br>
        <HR>
+       </div>
+       
  
  
        <!--Images de l'objet-->
  
  
-       <div class="img">
-           <img src="image_objet1.png" alt="Photo_de_l_objet1" height="200px" width="200px"/>
-           <img src="image_objet2.png" alt="Photo_de_l_objet2" height="200px" width="200px"/>
-           <img src="image_objet3.png" alt="Photo_de_l_objet3" height="200px" width="200px"/>
-       </div>
+       <div id="image">
+        <a href="tresor.html" target="_blank">           
+            <img src="tresor.jpg" alt="tresor" style="width:20%"> 
+        </a>
+        &emsp;&emsp;
+        <a href="tresor.html" target="_blank">           
+            <img src="tresor.jpg" alt="tresor" style="width:20%"> 
+        </a>
+        &emsp;&emsp;
+        <a href="tresor.html" target="_blank">           
+            <img src="tresor.jpg" alt="tresor" style="width:20%"> 
+        </a>
+    </div>
+    <br>
  
  
        <!--Description de l'objet avec son prix fixé-->
-       <p>Description (qualité, défauts), catégorie, numéro d'identification</p>
-       <div class="prix">
-           <strong>Dernière enchère : €</strong>
+       <p class="description">BLALALALLLALALALALAL</p>
+       <br>
+       <div id="prix">
+           Dernière enchère
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+           <input type="text" id="prix">
+   
        </div>
-       <br><br>
+       <br><br><br>
  
  
        <!--Plafond d'enchères-->
-       <div class="plafond">
-           <label for="plafond_d_encheres">Mon plafond d'enchères :</label>
- 
-       <input type="text" id="plafond_d_encheres" name="plafond_d_encheres" required
-       minlength="4" maxlength="8" size="10">
- 
-       </div>
- 
- 
- 
-       <!--Bouton acheter maintenant-->
-       <div class="button">
-           <ul>
-               <li><a href="enchere_objet1_enregistree.html">Enchérir</a></li>
-           </ul>
-       </div>
- 
- 
- 
+       <div id="offre">
+        Mon plafond d'enchère
+        &emsp;&emsp;&emsp;&emsp;
+        <input type="text" id="prix">
+        &emsp;&emsp;&emsp;&emsp;
+        <a href="offre_objet1_en_compte.html" class="button">Enchérir</a>
+    </div>
+    <br><br><br>
  
    </body>
  

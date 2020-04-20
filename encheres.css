@@ -1,18 +1,17 @@
 /*Page 14 : encheres.css*/
  
-h1{
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 30px;
-    padding-top: 5px;
- }
- h2{
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 15px;
-    padding-top: 5px;
-  
- }
+#titre{
+   text-align: center;
+   color: #5F8CA3;
+   font-size: 30px;
+   padding-top: 5px;  
+ 
+}
+#st{
+   text-align: center;
+   font-size: 20px;
+   color:#C44C51;
+}
   
  div.fond{
     background: url(fond.jpg) no-repeat;
@@ -21,94 +20,52 @@ h1{
   
  /*Barre de navigation*/
   
- div.barre ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
- }
- div.barre li {
-    float: right;
- }
- div.barre li a {
-    display: block;
-    font-weight: bold;
-    color: #ffb6b8;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
- }
- /* Change la couleur du bloc en passage souris */
- div.barre li a:hover {
-    background-color:#C44C51;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
- }
- /*Pour régler la mise en forme du nom de l'objet*/
-.nom{
-   font-size: 20px;
-   font-weight: bold;
-}
-  
-#item{
-   height: 6em;
-   width:auto;
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
 }
 
+li{
+   float: right;
+   position: relative;
+   right: 40px;
+}
+  
+  
  /*Galerie images*/
- div.encadrement{
-    border-style: solid;
-    border-color: #ffb6b8;
-    border-width: 2px;
-  
- }
-  
- div.img{
-    text-align: left;
- }
-  
- div.desc{
-    text-align: left;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
- }
+ .desc1{
+   float: right;
+   position: relative;
+   right:780px;
+   font-size: 20px;
+}
+.img{
+   margin-left: 30px;
+}
+.nom{
+   font-size: 23px;
+}
+
   
  /*Bouton enchérir*/
   
- div.button2 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
-    padding-left: 500px;
-    padding-right: 500px;
-  
- }
-  
- div.button2 li{
-    float: left;
-  
- }
-  
- div.button2 li a{
-    display: block;
-    font-weight: bold;
-    color: #ffb6b8;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  
- }
-  
- div.button2 li a:hover {
-    background-color:#C44C51;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
- }
+ .button{
+   float: none;
+   color: #ffb6b8;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.button:hover{
+   background-color:#C44C51;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+}
   
  /*Footer*/
  div.container{

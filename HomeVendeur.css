@@ -110,12 +110,14 @@ h2{
     position: relative;
 }
 
-.container .foot{
-    position: relative;
+div.container{
+    font-size: large;
     text-align: center;
-    width: 500px ;
-    height: 150px auto;
-    float: left;
-    margin: 0px;
-}
+ }
+ div.foot{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#5F8CA3;
+ }
 

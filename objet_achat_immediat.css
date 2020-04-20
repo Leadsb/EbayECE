@@ -1,103 +1,70 @@
 /*Page 12 : objet_achat_immediat.css*/
  
  
-/*Barre de navigation*/
+
+#fond{
+   background: url(fond.jpg) no-repeat;
+   background-size: 100%;
+}
+#titre{
+   text-align: center;
+   color: #5F8CA3;
+   font-size: 30px;
+   padding-top: 5px;  
  
-div.barre ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
- }
- div.barre li {
-    float: right;
- }
- div.barre li a {
-    display: block;
-    font-weight: bold;
-    color: #ffb6b8;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
- }
- /* Change la couleur du bloc en passage souris */
- div.barre li a:hover {
-    background-color:#C44C51;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
- }
-  
-  
- h1 {
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 30px;
-    padding-top: 5px;
- }
- #st{
-    text-align: center;
-    font-size: 20px;
-    color: #a2b5bf;
- }
- div.fond{
-    background: url(fond.jpg) no-repeat;
-    background-size: 100%;
- }
- div.img{
-    text-align: center;
- }
-  
-  
- /*Bouton Achat Immédiat*/
- div.button ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
-    padding-left: 500px;
-    padding-right: 500px;
-  
- }
-  
- div.button li{
-    float: unset ;
-  
- }
-  
- div.button li a{
-    display: block;
-    font-weight: bold;
-    color: #ffb6b8;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  
- }
-  
- div.button li a:hover {
-    background-color:#C44C51;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
- }
-  
- /*Description de l'objet avec prix fixé*/
- p{
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color:#5F8CA3;
- }
- div.prix{
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color:#5F8CA3;
-  
- }
+}
+#st{
+   text-align: center;
+   font-size: 20px;
+   color:#C44C51;
+}
+/*Pour aligner le boutton home à droite*/
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
+}
+
+li{
+   float: right;
+   position: relative;
+   right: 40px;
+}
+
+#image{
+text-align: center;
+}
+
+.description{
+   text-align: center;
+   font-size: 18px;
+}
+
+#prix{
+   text-align: center;
+   font-size: 20px;
+}
+#offre{
+   text-align: center;
+   font-size: 20px;
+}
+/*Bouton soumettre*/
+.button{
+   float: none;
+   color: #ffb6b8;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+.button:hover{
+   background-color:#C44C51;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+}
   
  /*Footer*/
  div.container{

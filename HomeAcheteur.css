@@ -1,7 +1,6 @@
 body {   
     padding: 5px;   
     margin: 0px;   
-    background:white;
     color:black;
 }
 /*En tête*/
@@ -111,11 +110,14 @@ h3{
     border-radius: 11px;
 }
 
-.container .foot{
-    position: relative;
+div.container{
+    font-size: large;
     text-align: center;
-    width: 500px ;
-    height: auto;
-    float: left;
-    margin: 0px;
-}
+ }
+ div.foot{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#5F8CA3;
+ }
+ 

@@ -41,21 +41,15 @@ li{
     font-weight: lighter;
 }
 /*Pour le foot*/
-.container {
-    position: relative;
+div.container{
+    font-size: large;
     text-align: center;
-    width: 1200px;
-    height: 300px auto;
-    margin: 20px;
-    color: #5F8CA3;
-}
-
-.container .foot{
-    position: sticky;
+ }
+ div.foot{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    width: 500px ;
-    height: 150px auto;
-    background:white;
-    float: left;
-    margin: 15px;
-}
+    color:#5F8CA3;
+ }
+ 
+ 
