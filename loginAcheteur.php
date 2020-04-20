@@ -14,14 +14,12 @@
            <h1 class="logo">Espace de connexion</h1>
            <h2>Identification vers votre espace</h2>
            <br><br>
- 
-       </div>
-      
        <!--Barre de navigation-->
        <ul>
            <li><a href="home.html">Retour</a></li>
        </ul>
        <br>
+        </div>
        <HR>
 
     <?php
@@ -32,10 +30,8 @@
 
         $db_handle = mysqli_connect('localhost', 'root', '');  
         $db_found = mysqli_select_db($db_handle, $database); 
-
-        if (isset($_POST["button1"])) 
-        {
-            if ($db_found) 
+        
+        if ($db_found) 
             { 
                 $sql = "SELECT * FROM acheteur"; 
                 if ($login != "") 
@@ -74,11 +70,10 @@
                     <?php
                 }
             }
-        }
         else 
-        {    
-            echo "Database not found. <br>";   
-        }  
+            {    
+                echo "Database not found. <br>";   
+            }  
         //fermer la connexion  
         mysqli_close($db_handle); 
     ?>

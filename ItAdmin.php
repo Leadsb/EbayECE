@@ -36,7 +36,7 @@
         $db_found = mysqli_select_db($db_handle, $database); 
         //Si la base est trouvé on va y chercher nos info
         if ($db_found){
-            //item est la table qui nous interesse, elle contient 3 entités
+            //item est la table qui nous interesse, elle contient qql entités
             $sql= "SELECT * FROM item";
             $result=mysqli_query($db_handle, $sql);
             while($data=mysqli_fetch_assoc($result))

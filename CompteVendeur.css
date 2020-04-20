@@ -24,6 +24,10 @@ color: #C44C51;
     color:#A2B5BF;
     left: 100px;
 }
+#texte{
+    text-align: center;
+}
+
 body {   
     padding: 5px;   
     margin: 6px;   

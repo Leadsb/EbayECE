@@ -33,8 +33,6 @@
         $db_handle = mysqli_connect('localhost', 'root', '');  
         $db_found = mysqli_select_db($db_handle, $database); 
 
-        if (isset($_POST["button1"])) 
-        {
             if ($db_found) 
             { 
                 $sql = "SELECT * FROM vendeur"; 
@@ -74,11 +72,11 @@
                     <?php
                 }
             }
-        }
-        else 
-        {    
-            echo "Database not found. <br>";   
-        }  
+        
+            else 
+            {    
+                echo "Database not found. <br>";   
+            }  
         //fermer la connexion  
         mysqli_close($db_handle); 
     ?>
