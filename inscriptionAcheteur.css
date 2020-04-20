@@ -63,7 +63,8 @@ li {
  }
   
  div.button1 li{
-    float: unset ;
+    float: inline-start ;
+    right: 300px,
   
  }
   
