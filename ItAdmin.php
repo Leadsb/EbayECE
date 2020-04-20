@@ -14,6 +14,7 @@
             <li><a href="AjoutItAdmin.php">Ajouter</a></li>
         </ul>
         <HR>
+
         <table>
             <tr>
                 <th>ID</th>

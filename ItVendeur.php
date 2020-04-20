@@ -21,6 +21,7 @@
                 <label>Adresse:</label><input type="text" name="mail">
                 <input name = "button1" type="submit" value="Envoyer">
             </form>
+         
 
         <table>
             <tr>
