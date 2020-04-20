@@ -63,8 +63,8 @@ li {
  }
   
  div.button1 li{
-    float: unset ;
-  
+    position: relative;
+    left: -260px;
  }
   
  div.button1 li a{
