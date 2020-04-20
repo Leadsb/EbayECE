@@ -64,7 +64,7 @@
                     <!--Bouton valider-->
                     <div class="button1">
                         <ul>
-                            <li><a href="HomeAcheteur.html">Accéder à mon compte</a></li>
+                            <li><a href="HomeAcheteur.php">Accéder à mon compte</a></li>
                         </ul>
                     </div>
                     <?php
