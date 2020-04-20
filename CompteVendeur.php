@@ -48,10 +48,9 @@
                 <div id="sous-sec">
                     <h3>Informations de connexion</h3>
                 </div>
-                <div id="texte"><?php
-                echo "Mail:", $mail, "</br>";
-                echo "Mot de passe:", $data['mdp'], "</br>";
-                ?>
+                <div id="texte">
+                <p> <?phpecho "Mail:", $mail; ?> </p>
+                <p> <? echo "Mot de passe:", $data['mdp']; ?></p>
                 </div>
                 <div id="sous-sec">
                     <h3>Informations générales:</h3>

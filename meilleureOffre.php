@@ -38,7 +38,7 @@
                 $check=$check+1;
                 ?>
                 <div id="corp">
-                    <p class="nom"><?php echo $data["Nom"];?> <a href="objet1_meilleureOffre.html" target="objet1_meilleureOffre.html" class="button">Faire une offre</a>
+                    <p class="nom"><?php echo $data["Nom"];?> <a href="#"  class="button">Faire une offre</a>
                     <table>
                         <tr>
                             <?php

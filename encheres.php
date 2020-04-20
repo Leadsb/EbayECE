@@ -62,9 +62,9 @@
                             </tr>
                         </table>
                         <!--Bouton enchérir-->
-                        <div class="button2">
+                        <div class="button">
                             <ul>
-                                <li><a href="enchere_objet1.html">Enchérir</a></li>
+                                <li><a href="#">Enchérir</a></li>
                             </ul>
                         </div>
                     </div>

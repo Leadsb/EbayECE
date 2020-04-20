@@ -48,6 +48,10 @@ li{
 .nom{
    font-size: 23px;
 }
+#item{
+   height: 6em;
+   width:auto;
+}
 
   
  /*Bouton enchérir*/
