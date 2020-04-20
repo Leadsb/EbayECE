@@ -108,6 +108,11 @@ li {
     width: 90px;
     text-align: right;
   }
+
+  td{
+     text-align: center;
+     font-style: bold;
+  }
   
  /*Footer*/
  div.container{

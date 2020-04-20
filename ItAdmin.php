@@ -11,7 +11,7 @@
         </div>
         <ul>
             <li><a href="HomeAdmin.html">Retour</a></li>
-            <li><a href="AjoutItAdmin">Ajouter</a></li>
+            <li><a href="AjoutItAdmin.php">Ajouter</a></li>
         </ul>
         <HR>
         <table>
