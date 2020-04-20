@@ -60,22 +60,29 @@ li a:hover {
     font-size: 25px;
     color: #a2b5bf;
 }
-#corp{
-    
-    font-size: 20px;
-    text-align: justify;
-    margin: 30px;
-
-}
-#image{
-    width: 350px;
-    height: 350px;
-    background: url(22063.jpg) ;
-    background-size: 100% 100%;
-    float: right;
-    margin-right: 30px;
+.container {
     position: relative;
+    text-align: center;
+    width: 1200px;
+    height: 300px auto;
+    margin: 20px;
+    padding:20px;
 }
+
+.container .box{
+    position: relative;
+    text-align: justify;
+    width: 580px;
+    height: auto;
+    float: left;
+    margin: 10px;
+}
+
+#img{
+    padding-left: 150px;
+    height: 250px;
+}
+
 /*Pour le foot*/
 div.container{
     font-size: large;
