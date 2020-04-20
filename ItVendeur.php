@@ -14,6 +14,14 @@
             <li><a href="AjoutItem.php">Ajouter</a></li>
         </ul>
         <HR>
+
+        <div id="section">
+            <h3> Veuillez rappeler votre adresse mail de connexion </h3>
+            <form method="post">
+                <label>Adresse:</label><input type="text" name="mail">
+                <input name = "button1" type="submit" value="Envoyer">
+            </form>
+
         <table>
             <tr>
                 <th>ID</th>
@@ -26,41 +34,52 @@
                 <th>Gestion</th>
             </tr>        
         <?php
-        //association database
-        $database="EbayEce";
-        //connexion à la base donnée
-        $db_handle = mysqli_connect('localhost', 'root', '' );  
-        $db_found = mysqli_select_db($db_handle, $database); 
-        //Si la base est trouvé on va y chercher nos info
-        if ($db_found){
-            //item est la table qui nous interesse, elle contient 3 entités
-            $sql= "SELECT * FROM item WHERE V_Mail='lea.desbiens@edu.ece.fr'" ;
-            $result=mysqli_query($db_handle, $sql);
-            while($data=mysqli_fetch_assoc($result))
-            {
-                echo "<tr>";
-                    echo "<td>-", $data["ID"], "</td>";
-                    echo "<td>-", $data["Nom"], "</td>";
-                    echo "<td>-", $data["Photo"], "</td>";
-                    echo "<td>-", $data["Description"], "</td>";
-                    echo "<td>-", $data["Video"], "</td>";
-                    echo "<td>-", $data["Categorie"], "</td>";
-                    echo "<td>", $data["Prix"], "</td>";
-                    echo "<td>"?> <a href="#" class="button"e>Supprimer</a><?php "</td>";
-                echo "</tr>";
-            }
-                
-        }//end if 
 
-        //si le BDD n'existe pas  
-        else {      
-            echo "Database not found";  
-        }//end else 
-        
-        //fermer la connection 
-        mysqli_close($db_handle); 
+        if (isset($_POST["button1"])) 
+        {
+            echo "Voici vos items";
+
+            if (isset($_POST['mail']))
+            {
+                $mail=$_POST["mail"];
+            }
+
+            //association database
+            $database="EbayEce";
+            //connexion à la base donnée
+            $db_handle = mysqli_connect('localhost', 'root', '' );  
+            $db_found = mysqli_select_db($db_handle, $database); 
+            //Si la base est trouvé on va y chercher nos info
+            if ($db_found){
+                //item est la table qui nous interesse, elle contient 3 entités
+                $sql= "SELECT * FROM item WHERE V_Mail='$mail' " ;
+                $result=mysqli_query($db_handle, $sql);
+                while($data=mysqli_fetch_assoc($result))
+                {
+                    echo "<tr>";
+                        echo "<td>-", $data["ID"], "</td>";
+                        echo "<td>-", $data["Nom"], "</td>";
+                        echo "<td>-", $data["Photo"], "</td>";
+                        echo "<td>-", $data["Description"], "</td>";
+                        echo "<td>-", $data["Video"], "</td>";
+                        echo "<td>-", $data["Categorie"], "</td>";
+                        echo "<td>", $data["Prix"], "</td>";
+                        echo "<td>"?> <a href="#" class="button"e>Supprimer</a><?php "</td>";
+                    echo "</tr>";
+                }
+                    
+            }//end if 
+
+            //si le BDD n'existe pas  
+            else {      
+                echo "Database not found";  
+            }//end else 
+            
+            //fermer la connection 
+            mysqli_close($db_handle); 
+        }
         ?> 
-        </table>
+            </table>
     <br>
     <HR>
         <div class="container">

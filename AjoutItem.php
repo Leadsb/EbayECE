@@ -61,6 +61,9 @@
                <div>
                    <label>Prix :</label> <input type="text" name="Prix">
                </div>
+               <div>
+                   <label>Mail propriétaire :</label> <input type="text" name="mail">
+               </div>
                <br>
                <div class="button1">
                     <ul>
@@ -73,15 +76,21 @@
        <br>
        
        <?php
-        $nom=$_POST["Nom"];
-        $photo=$_POST["Photo"];
-        $description=$_POST["Description"];
-        $video=$_POST["Video"];
-        $categorie=$_POST["Categorie"];
-        $vente=$_POST["Vente"];
-        $prix=$_POST["Prix"];
 
-        var_dump($nom, $description, $categorie, $prix);
+        if (isset($_POST['Nom'])) 
+        {
+            $nom = $_POST['Nom']; 
+            $photo=$_POST["Photo"];
+            $description=$_POST["Description"];
+            $video=$_POST["Video"];
+            $categorie=$_POST["Categorie"];
+            $vente=$_POST["Vente"];
+            $prix=$_POST["Prix"];
+            $mail=$_POST["mail"];
+            
+        }
+
+       
 
         $db_handle = mysqli_connect('localhost', 'root', '', 'EbayEce' );  
         /* si bouton actionné*/
@@ -93,7 +102,7 @@
                 /* Variable globale */
                 
 
-                $sql="INSERT INTO item ( Nom, Photo, Description, Video, Categorie, Vente, Prix) VALUES ('$nom','$photo','$description','$video', '$categorie','$vente','$prix')";
+                $sql="INSERT INTO item (V_mail, Nom, Photo, Description, Video, Categorie, Vente, Prix) VALUES ('$mail', '$nom','$photo','$description','$video', '$categorie','$vente','$prix')";
                 $resultat=mysqli_query($db_handle,$sql);
                 if ($resultat == FALSE)
                 {
@@ -111,7 +120,8 @@
                 echo "erreur acces base";
             }
         }
-        unset($nom, $photo, $description, $video, $categorie, $vente, $prix);
+
+
 		?>
  
        <!--Footer avec liens vers autres sites-->
