@@ -4,6 +4,10 @@ body {
     background:white;
     color:black;
 }
+#fond{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+ }
 
 #section{
     text-align: left;

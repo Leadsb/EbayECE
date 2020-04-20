@@ -5,6 +5,11 @@ body {
     color:black;
 }
 
+#fond{
+    background: url(fond.jpg) no-repeat;
+    background-size: 100%;
+ }
+
 #section{
     text-align: left;
     color:#A2B5BF;

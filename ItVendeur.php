@@ -5,14 +5,16 @@
         <link rel="stylesheet" type="text/css" href="ItVendeur.css"> 
     </head>
     <body>
-        <div id="section">
-            <h2>Gestion des Items de la plateforme</h2>
-            <h4>Vous retrouverez ici l'ensemble des items que vous avez mis en vente sur la plateforme</h4>
-        </div>
-        <ul>
-            <li><a href="HomeVendeur.html">Retour</a></li>
-            <li><a href="AjoutItem.php">Ajouter</a></li>
-        </ul>
+        <div id="fond">
+            <div id="section">
+                <h2>Gestion des Items de la plateforme</h2>
+                <h4>Vous retrouverez ici l'ensemble des items que vous avez mis en vente sur la plateforme</h4>
+            </div>
+            <ul>
+                <li><a href="HomeVendeur.html">Retour</a></li>
+                <li><a href="AjoutItem.php">Ajouter</a></li>
+            </ul>
+        </div>    
         <HR>
 
         <div id="section">

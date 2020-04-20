@@ -5,9 +5,11 @@
         <link rel="stylesheet" type="text/css" href="ItAdmin.css"> 
     </head>
     <body>
-        <div id="section">
-            <h2>Gestion des Items de la plateforme</h2>
-            <h4>Vous retrouverez ici l'ensemble des items mis en vente sur la plateforme</h4>
+        <div id="fond">
+            <div id="section">
+                <h2>Gestion des Items de la plateforme</h2>
+                <h4>Vous retrouverez ici l'ensemble des items mis en vente sur la plateforme</h4>
+            </div>
         </div>
         <ul>
             <li><a href="HomeAdmin.html">Retour</a></li>
