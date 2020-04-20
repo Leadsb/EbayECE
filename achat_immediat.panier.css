@@ -1,18 +1,17 @@
 /*Page 13 : achat_immediat_panier.css*/
  
-h1{
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 30px;
-    padding-top: 5px;
- }
- h2{
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 15px;
-    padding-top: 5px;
-  
- }
+#titre{
+   text-align: center;
+   color: #5F8CA3;
+   font-size: 30px;
+   padding-top: 5px;  
+ 
+}
+#st{
+   text-align: center;
+   font-size: 20px;
+   color:#C44C51;
+}
   
  div.fond{
     background: url(fond.jpg) no-repeat;
@@ -45,6 +44,7 @@ h1{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 25px;
   
  }
   

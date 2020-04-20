@@ -3,58 +3,38 @@
 /*Barre de navigation*/
  
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:white;
- }
- li {
-    float: right;
- }
- li a {
-    display: block;
-    font-weight: bold;
-    color: #ffb6b8;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
- }
- /* Change la couleur du bloc en passage souris */
- li a:hover {
-    background-color:#C44C51;
-    -webkit-border-radius: 11px;
-    -moz-border-radius: 11px;
-    border-radius: 11px;
- }
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
   
-  
- /*Titres en en-tête*/
-  
- h1 {
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 30px;
-    padding-top: 5px;
- }
-  
- h2{
-    text-align: center;
-    color: #5F8CA3;
-    font-size: 20px;
-    padding-top: 5px;
-  
- }
-  
- #st{
-    text-align: center;
-    font-size: 20px;
-    color: #a2b5bf;
- }
- div.fond{
-    background: url(fond.jpg) no-repeat;
-    background-size: 100%;
- }
+}
+li {
+   float: right;
+   position: relative;
+   right: 40px;
+}
+
+ 
+ 
+/*Titres en en-tête*/
+ 
+#titre{
+  text-align: center;
+  color: #5F8CA3;
+  font-size: 30px;
+  padding-top: 5px;  
+
+}
+#st{
+  text-align: center;
+  font-size: 20px;
+  color:#C44C51;
+}
+#fond{
+   background: url(fond.jpg) no-repeat;
+   background-size: 100%;
+}
   
  /*Body*/
  div.instruction_formulaire{
