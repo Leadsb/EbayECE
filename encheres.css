@@ -46,8 +46,17 @@ h1{
     -moz-border-radius: 11px;
     border-radius: 11px;
  }
+ /*Pour régler la mise en forme du nom de l'objet*/
+.nom{
+   font-size: 20px;
+   font-weight: bold;
+}
   
-  
+#item{
+   height: 6em;
+   width:auto;
+}
+
  /*Galerie images*/
  div.encadrement{
     border-style: solid;
