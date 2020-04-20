@@ -67,7 +67,7 @@
                <br>
                <div class="button1">
                     <ul>
-                        <li><input type="submit" name="button1" value="Ajouter"></li>
+                        <li><input type="submit" value="Ajouter"></li>
                     </ul>
                 </div>
            </form>

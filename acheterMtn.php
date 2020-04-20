@@ -38,7 +38,7 @@
                 $check=$check+1;
                 ?>
                 <div id="corp">
-                    <p class="nom"><?php echo $data["Nom"];?> <a href="achat_immediat_panier" class="button">Acheter maintenant</a></p>
+                    <p class="nom"><?php echo $data["Nom"];?> <a href="achat_immediat_panier.html" class="button">Acheter maintenant</a></p>
                     <table>
                         <tr>
                             <?php
